@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>เพิ่มรายการ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+{% load static %}
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+  
+  *{
+    font-family: "IBM Plex Sans Thai", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+            background-image: url("{% static 'images/bg-1.jpg' %}");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+  .container {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  padding: 30px;
+  margin-top: 50px;
+  border-radius: 20px ;
+  box-shadow: 0 4px 12px rgba(11, 24, 7, 0.436);
+}
+
+.form-control-custom {
+  width: 100%;
+  padding: 10px 15px;
+  border: 2px solid #3851dd; 
+  border-radius: 8px;        
+  margin-bottom: 20px;        
+  font-size: 16px;
+}
+
+.form-control-custom:focus {
+  outline: none;
+  border-color: #3851dd;      
+  box-shadow: 0 0 5px rgba(89, 40, 167, 0.5); 
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #17181d;
+}
+</style>
+<body>
+
+  <div class="container mt-5">
+    <h1 class="mb-4 text-center">เพิ่มรายการ</h1>
+    <form method="post" class="p-4 rounded mx-auto" style="max-width: 500px;">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <div class="d-flex gap-2">
+        <button type="submit" class="btn btn-success w-50" style="background: linear-gradient(to right, #775fff, #3851dd);">บันทึก</button>
+        <a href="{% url 'index' %}" class="btn btn-secondary w-50">ย้อนกลับ</a>
+      </div>      
+  </form>
+  
+</div>
+
+
+</body>
+</html>
