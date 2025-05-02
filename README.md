@@ -14,10 +14,13 @@
 
 ## 📸 Screenshot
 ![google drive รวมรูปScreenshot](https://drive.google.com/drive/folders/1Usn6USFq9jyNT5buKIbrd0qpelniAk4e?usp=drive_link)
-![ตารางข้อมูล](images/table-example.png)
+![หน้าlogin](screenshot/login.jpeg)
+![หน้าindex](screenshot/index.jpeg)
+![หน้าเพิ่มรายการ](screenshot/add.jpeg)
 
 ## Infographic
-![google drive รวมรูปScreenshot](https://drive.google.com/drive/folders/1C6t-PHXEYhsv8SoJeBQw7nZX6fpEwZZa?usp=drive_link)
+![google drive Infographic](https://drive.google.com/drive/folders/1C6t-PHXEYhsv8SoJeBQw7nZX6fpEwZZa?usp=drive_link)
+![Infographic](Infographic.png)
 
 ## 📹 VDO
 [google drive VDO](https://drive.google.com/drive/folders/1Ri2z1tE7lVasHYUrQn1L4_nE5OyjWzr2?usp=drive_link)
