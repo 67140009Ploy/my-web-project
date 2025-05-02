@@ -20,7 +20,7 @@
 
 ## Infographic
 ![google drive Infographic](https://drive.google.com/drive/folders/1C6t-PHXEYhsv8SoJeBQw7nZX6fpEwZZa?usp=drive_link)
-![Infographic](info/Infographic.png)
+![Infographic](info/Inforgraphic.png)
 
 ## 📹 VDO
 [google drive VDO](https://drive.google.com/drive/folders/1Ri2z1tE7lVasHYUrQn1L4_nE5OyjWzr2?usp=drive_link)
